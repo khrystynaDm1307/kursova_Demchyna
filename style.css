@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'Monserat Bold';
+    src: url(fonts/Montserrat-Bold.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+.nav-link{
+    font-size: 16px;
+    color: black!important;
+    font-family: 'Montserrat'!important;
+    font-weight: 600;
+    margin-right: 30px;
+}
+.howToEarn{
+    height: 700px;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px;
+    align-items: center;
+}
+.howToEarn div{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.howToEarn h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: 'Monserat Bold';
+    
+}
+.howToEarn h2{
+    font-weight: 300;
+    font-size: 1.3rem;
+    letter-spacing: 0.8px;
+    font-family: 'Montserrat'!important;
+    font-size: 16px;
+    line-height: 23px;
+}
+.howToEarn img{
+    width: 45%;
+    margin-left: 30px;
+    height: 600px;
+}
+.howToEarn button{
+    width: 200px;
+    height: 70px;
+    background-color: rgb(194, 192, 192);
+    border-radius: 40px;
+    border:none;
+font-family: 'Monserat Bold';
+font-size: 16px;
+}
+.newBizSchool{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    align-items: center;
+    background-color: rgb(233, 232, 232);
+}
+.newBizSchool div{
+    width: 400px;
+    margin-left: 50px;
+}
+.newBizSchool h3{
+    font-weight: 300;
+    font-size: 1.3rem;
+    letter-spacing: 0.8px;
+    font-family: 'Montserrat'!important;
+    font-size: 16px;
+    line-height: 23px;
+}
+.request{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    align-items: center;
+}
+.boxRequest{
+    width: 550px;
+    height: 200px;
+    background-color: rgb(233, 232, 232); 
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    padding: 30px 40px ;
+}
+.boxRequest h2{
+    font-size: 20px;
+}
+.boxRequest h3{
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    font-family: 'Montserrat'!important;
+    font-size: 14px;
+    line-height: 23px;
+}
+.program{
+width: 100%;
+padding: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.programDesc{
+    width: 700px;
+    text-align: center;
+}
+.programDesc h1{
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-family: 'Monserat Bold';
+
+}
+.programDesc h2{
+    font-weight: 300;
+    letter-spacing: 0.8px;
+    font-family: 'Montserrat'!important;
+    font-size: 16px;
+    line-height: 23px;
+padding: 0 50px;
+}
+.module{
+height: 400px;
+width: 100%;
+display: flex;
+justify-content: center;
+ margin-top: 50px;
+}
+.nameOfModule{
+    width: 400px;
+}
+.programOfModule{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.nameOfModule h4{
+    font-weight: bold;
+}
+.programOfModule h2{
+    font-weight: 300;
+    font-size: 1.3rem;
+    letter-spacing: 0.8px;
+    font-family: 'Montserrat'!important;
+    font-size: 18px;
+    line-height: 23px;
+}
+.programOfModule h3{
+  font-size: 22px;
+  font-style: italic;
+}
+.mentors{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.mentorsDesc{
+    width: 950px;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.photoMentor{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.mentor{
+    width: 200px;
+    text-align: center;
+}
+.mentor h3{
+    font-size: 20px;
+    letter-spacing: 0.8px;
+    font-family: 'Monserat Bold'!important;
+    font-size: 16px;
+height: 30px;
+margin-top: 20px;
+}
+.mentor h4{
+    font-size: 13px;
+    color: rgb(80, 80, 80);
+    height: 30px;
+    letter-spacing: 0.8;
+   font-family: 'Montserrat';
+}
+.photoMentor:nth-of-type(1){
+    background-image: url(img/howToEarn.jpg);
+    background-position: center;
+}
+.photoMentor:nth-of-type(2){
+    background-image: url(img/howToEarn.jpg);
+    background-position: center;
+}
+.photoMentor:nth-of-type(3){
+    background-image: url(img/howToEarn.jpg);
+    background-position: center;
+}
+.photoMentor:nth-of-type(4){
+    background-image: url(img/howToEarn.jpg);
+    background-position: center;
+}
+.packets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.marg{
+    margin-bottom: 50px;
+}
