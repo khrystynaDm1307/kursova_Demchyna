@@ -15,7 +15,10 @@ body{
     font-weight: 600;
     margin-right: 30px;
 }
-
+.emaill{
+  display: flex;
+  justify-content: space-around;
+}
 .howToEarn{
     height: 900px;
     display: flex;
@@ -382,7 +385,6 @@ footer{
     margin-bottom:30px
   }
   .howToEarn{
-    padding: 20px;
     height: 700px;
   }
   .howToEarn h1{
@@ -519,3 +521,43 @@ footer{
     font-weight:600
   }
 }
+@media (max-width:660px)
+{
+  .howToEarn{
+    min-height: 800px;
+    flex-direction: column;
+    padding-top: 50px;
+    justify-content: center;
+  }
+.textHowToEarn{
+  justify-content: center;
+  align-items: center;
+}
+.howToEarn div{
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    margin-right: 0px;
+    padding: 20px;
+
+}
+.howToEarn h1{
+    font-size: 1rem;
+    text-align: center;
+}
+.howToEarn h2{
+    font-size: 1rem;
+    text-align: center;
+}
+.howToEarn img{
+    width: 80%;
+    margin-left: 0px;
+
+}
+.howToEarn button{
+    width:100px;
+    height: 40px;
+font-size: 10px;
+}
+}
+
