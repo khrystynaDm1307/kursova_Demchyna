@@ -240,7 +240,11 @@ nav{
     border:none;
 font-family: 'Monserat Bold';
 font-size: 16px;
-margin: 50px 20px 50px 0;
+margin: 50px 0px 50px 0;
+}
+button a{
+text-decoration: none;
+color: black;
 }
 .buttons button:nth-of-type(2){
     width: 300px;

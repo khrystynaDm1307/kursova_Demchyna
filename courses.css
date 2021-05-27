@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Monserat Bold';
+    src: url(fonts/Montserrat-Bold.ttf);
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+.nav-link{
+    font-size: 16px;
+    color: black!important;
+    font-family: 'Montserrat'!important;
+    font-weight: 600;
+    margin-right: 30px;
+}
+.btn{
+    width: 250px;
+    height: 70px;
+    background-color: rgb(194, 192, 192);
+    border-radius: 40px;
+    border:none;
+font-family: 'Monserat Bold';
+font-size: 16px;
+color: black;
+padding-top: 20px;
+}
+.mentorsMentors{
+    margin-top: 50px;
+    width: 100%;
+    min-height: 800px;
+  display: flex;
+  justify-content: space-around;
+flex-wrap: wrap;
+  }
+.packets{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.marg{
+    margin-bottom: 50px;
+}
+.program{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    span{
+        text-decoration: line-through;
+        color: gray;
+    }
+    .programDesc{
+        width: 700px;
+        text-align: center;
+    }
+    .card-body .programDesc{
+        width: 100%;
+        text-align: center;
+    }
+
+    .programDesc h1{
+        font-weight: 700;
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        font-family: 'Monserat Bold';
+    
+    }
+    .card-body .programDesc h1{
+        font-size: 2rem;
+    }
+    .programDesc h2{
+        font-weight: 300;
+        letter-spacing: 0.8px;
+        font-family: 'Montserrat'!important;
+        font-size: 16px;
+        line-height: 23px;
+    padding: 0 50px;
+    }
+.buttons button:nth-of-type(1){
+    width: 200px;
+    height: 70px;
+    background-color: rgb(194, 192, 192);
+    border-radius: 40px;
+    border:none;
+font-family: 'Monserat Bold';
+font-size: 16px;
+margin: 50px 20px 50px 0;
+}
+.buttons button:nth-of-type(2){
+    width: 300px;
+    height: 70px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 40px;
+    border:none;
+font-family: 'Monserat Bold';
+font-size: 16px;
+border:1px solid rgb(119, 119, 119);
+margin: 50px 0px 20px 0;
+}
+.card{
+    border: 0;
+    text-align: center;
+    font-family: 'Montserrat';
+}
+.card-title{
+    font-weight:bold;
+}
+
+
+footer{
+    width: 100%;
+    height: 120px;
+    margin-top: 90px;
+    background-color: rgb(14, 14, 14);
+}
+
+.site-footer
+{
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+
+.site-footer a
+{
+  color:#737373;
+}
+.footer-links a
+{
+  color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color:#3366cc;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer .social-icons
+{
+  text-align:right
+}
+.site-footer .social-icons a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+  background-color:#33353d
+}
+.copyright-text
+{
+  margin:0
+}
+
